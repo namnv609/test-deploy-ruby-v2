@@ -17,3 +17,6 @@
 /tmp
 config/database.yml
 config/secrets.yml
+/public/javascripts/i18n.js
+/public/javascripts/translations.js
+/app/assets/javascripts/i18n/translations.js

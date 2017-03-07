@@ -1,4 +1,4 @@
-set :port, 2222
+set :port, 2224
 set :user, "deploy"
 set :deploy_via, :remote_cache
 set :conditionally_migrate, true
