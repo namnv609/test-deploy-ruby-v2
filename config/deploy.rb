@@ -26,7 +26,7 @@ namespace :deploy do
     invoke "unicorn:restart"
   end
 
-  after :updated, :export_i18n_js do
+  before :updated, :export_i18n_js do
     on roles(:app), wait: 5 do
       info "Export I18n JS"
 
